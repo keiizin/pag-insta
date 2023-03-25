@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    box-sizing: content-box;
+    margin: 0;
+    padding: 1px;
+    padding-left: 2px;
+    /* overflow-x: hidden; */
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}

@@ -1,0 +1,437 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1280px;
+    background-color: #000;
+}
+
+
+aside{
+/*     display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0; */
+    min-height: 100vh;
+    justify-content: space-evenly;
+/*     top: 0;
+    left: 0; */
+    
+    position: fixed;
+    
+}
+.barra-menu {
+    width: 180px;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding-right: 50px;
+    position: fixed;
+    border-right: .9px solid ;
+    border-color: rgba(255, 255, 255, 0.1);
+    top: 0;
+    left: 0;
+    max-width: 200px;
+}
+.barra-menu .logo-nova{
+    display: none;
+    margin: auto;
+}
+
+.barra-menu .logo {
+    max-width: 110px;
+    filter: invert(1);
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+
+.abas a{
+    display: flex;
+    align-items: left;
+}
+ion-icon{
+    color: #fff;
+}
+
+.barra-menu .abas ion-icon {
+    left: 0px;
+    font-size: 1.7em;
+    line-height: 57px;
+    position: relative;
+    top: -5px;
+}
+
+.abas p{
+    margin-left: 13px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 350;
+}
+
+.abas .botao-menu{
+    margin-bottom: 15px;
+    margin-left: 3px;
+}
+.botao-menu img{
+    max-width: 28px;
+    border-radius: 50%;
+    position: relative;
+    top: -5px;
+}
+.botao-menu{
+    padding-top: 10px;
+    border-radius: 20px;
+    max-width: 210px;
+}
+.menu {
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.menu:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: .5;
+}
+.menu:hover ion-icon {
+    transform: scale(1.1);
+}
+
+.botao-menu:hover img{
+    transform: scale(1.1);
+}
+
+.botao-menu:hover ion-icon {
+    transform: scale(1.1);
+}
+
+.botao-menu:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: .5;
+}
+
+.botao-menu .ativo{
+    font-weight: bold;
+}
+footer{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    background-color: #000;
+}
+footer hr{
+    position: relative;
+    right: 10px;
+    width: 765px;
+    border: none;
+    border-top: 0.10px solid rgba(255, 255, 255, .3);
+    
+}
+footer .barra-central{
+    display: flex;
+    min-width: 100vh;
+    height: 50px;
+    justify-items: center;
+    justify-content: center;
+    
+}
+footer .barra-central{
+    /* gap: 70px; */
+}
+footer ion-icon{
+    font-size: 28px;
+
+}
+.barra-central img{
+    position: relative;
+    top: -1px;
+}
+
+
+
+nav {
+/*     max-width: 630px;
+    min-height: 110px;
+    padding: 5px; */
+    font-size: 12px;
+    font-weight: 500px;
+/*     width: 100px; */
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+    top: 0;
+}
+nav {
+/*     display: grid;
+    grid-template-columns: repeat(8, 1fr); */
+/*     justify-content: space-between; */
+    gap: 10px;
+    text-align: center; 
+    margin-left: -35px;
+}
+
+
+.storys img{
+    max-width: 56px;
+    max-height: 56px;
+    border-radius: 50%;
+}
+
+.storys img{
+    background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(to bottom, #fc0fc0, #ffc222) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+}
+nav a{
+    text-align: center;
+    color: #fff;
+}
+.storys a{
+    padding: 0;
+}
+.storys{
+    max-width: 70px;
+    width: 65px;
+}
+main{
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main .feed{
+    max-width: 380px;
+/*     justify-content: center;
+    align-items: center; */
+    margin: auto;
+    /* min-height: 100vh; */
+}
+main hr{
+    width: 355px;
+    margin: 0 auto;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    right: 7px;
+}
+
+.name{
+    display: flex;
+}
+.name img{
+    max-width: 37px;
+    max-height: 37px;
+    border-radius: 50%;
+    position: relative;
+    top: -8px;   
+}
+.name img{
+    background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(to bottom, #fc0fc0, #ffc222) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+}
+.name ion-icon{
+    position: relative;
+    top: -2px;
+}
+.name .verificado{
+    color: #00a8ff;
+}
+.name .time{
+    line-height: 13px;
+    color: #aaa;
+    font-size: smaller;
+}
+.name .dot{
+    justify-items: right;
+    position: relative;
+    left: 160px;
+    top: 5px;
+}
+
+.name a{
+    display: flex;
+}
+.name{
+    min-height: 30px;
+}
+.leo-fortal {
+    line-height: 8px;
+    font-weight: 500px;
+    flex-direction: column;
+}
+.leo-fortal .fortal{
+    font-size: 12px;
+}
+main .leozin{
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.foto img{
+    max-width: 360px;
+    border-radius: 5px;
+}
+.foto ion-icon{
+    font-size: 1.6em;
+    padding: 2px;
+    
+}
+/* .foto .like{
+    
+} */
+
+.foto .likado{
+    color: #ff3030;
+}
+.foto ion-icon:hover{
+    color: #aaa;
+}
+.foto .save{
+    justify-items: right;
+    position: relative;
+    left: 225px;
+}
+aside {
+    /* max-width: 370px; */
+    min-height: 100vh;
+    display: flex;
+    top: 0;
+    right: 0;
+    margin-top: 60px;
+    font-family: 'Open Sans', sans-serif;
+    width: 350px;
+    /* margin-right: 20px; */
+}
+aside .eu{
+    max-width: 370px;
+    width: 370px;
+}
+
+.perfis {
+    max-width: 180px;
+    /* min-height: 100vh; */
+}
+.perfis{
+    position: relative;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 370px;
+}
+.perfis label{
+    color: #fff;
+    font-size: 13px;
+}
+
+.perfis .eu img{
+    max-width: 56px;
+    max-height: 56px;
+    border-radius: 50%;
+    position: relative;
+    top: -10px;
+}
+.mim img{
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+}
+
+.perfis .sugestoes img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: -1px;
+    margin-right: 5px;
+}
+
+.eu a{
+    display: flex;
+    font-size: 12px;
+    font-weight: 550;
+}
+.eu .literalmente-eu{
+    position: relative;
+    right: -10px;
+}
+
+.eu .mudar{
+    position: relative;
+    left: 120px;
+    bottom: -10px;
+    color: #00a8ff;
+}
+.eu .div{
+    display: flex;
+    margin: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    bottom: 10px;
+    right: 5px;
+    font-size: 13px;
+}
+.sugestoes .div a{
+    position: relative;
+    left: 125px;
+    bottom: 1px;
+    color: #fff;
+    font-weight: 600;
+}
+.sugestoes a{
+    display: flex;
+}
+.sugestoes{
+    max-width: 300px;
+}
+.div p{
+    color: #aaa;
+    font-weight: normal;
+}
+.sugestoes .aii{
+    position: relative;
+    left: 273px;
+    bottom: 30px;
+    color: #00a8ff;
+}
+.dono p{
+    font-size: 10px;
+    position: relative;
+    top: 30px;
+    color: #aaa;
+}
+.contas p{
+    position: relative;
+    left: -50px;
+    bottom: -15px;
+    color: #bbb;
+}
+.gaules p{
+    position: relative;
+    left: -45px;
+}
+.emi p{
+    position: relative;
+    left: -25px;
+}
+.shoko p{
+    position: relative;
+    left: -40px;
+}
+.shoko img{
+    background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(to bottom, #fc0fc0, #ffc222) border-box;
+    border-radius: 50em;
+    border: 2px solid transparent;
+}
+.miyamura p{
+    position: relative;
+    left: -65px;
+}
